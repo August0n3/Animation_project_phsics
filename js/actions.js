@@ -16,21 +16,22 @@ function blueSquare(){
             clearInterval(cont)
             tempo = 0
         }else{
-            pos1 += 10 //vel em x
-           // pos2 += // vel em
+            pos1 += 4.78 //vel em x
             ob1.style.left = pos1+'px'
-            //ob1.style.top = pos2+'px' 
+            pos2 += 2
+            
+            ob1.style.top = pos2+'px' 
         }
     }
 
     function atualizarContador() {
         // Exibindo o tempo restante no contador
-        document.getElementById("contador").innerHTML = tempo/100+0.01 +' segundos' 
-           tempo++
+        document.getElementById("contador").innerHTML = (tempo/100+0.01).toFixed(2) +' segundos ' + ((pos1*2)/1000).toFixed(2)
+        tempo++
       }
     
 }
     
 
 /* 6 segundo para ir do 0 ao 540 1,16m
-/* a cada 10px = 1cm*/ 
+/* a cada 5px = 1cm*/ 
