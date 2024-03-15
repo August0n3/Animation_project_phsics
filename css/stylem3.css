@@ -57,12 +57,23 @@ address {
 .obj1 {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 50%;
     width: 40px;
     height: 40px;
     background-color: blue;
+    padding: 0px;
+    margin: 0px;
 }
-
+.obj2 {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(225, 255, 0);
+}
 
 .actions {
     margin: 0.5rem 0;
