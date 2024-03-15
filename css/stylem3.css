@@ -57,22 +57,24 @@ address {
 .obj1 {
     position: absolute;
     top: 0px;
-    left: 50%;
-    width: 40px;
-    height: 40px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
     background-color: blue;
     padding: 0px;
     margin: 0px;
 }
 .obj2 {
-    margin: 0px;
-    padding: 0px;
     position: absolute;
     bottom: 0px;
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(225, 255, 0);
+    width: 300px;
+    height: 300px; /* as the half of the width */
+    background-color: none;
+    border-bottom-left-radius: 1800px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 0; /* 100px of height + 10px of border */
+    border: 10px solid gray;
+    border-right: 0;
+    border-top: 0;
 }
 
 .actions {

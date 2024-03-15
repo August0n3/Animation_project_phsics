@@ -2,7 +2,7 @@ let id = null
 let id2 = null
 let cont = null
 let tempo = 0
-let g = 4   
+let g = 4   //gravidade represnetativa
 let vel = 10
 function blueSquare(){
     let ob1 = document.getElementById('obj1')
@@ -24,7 +24,7 @@ function blueSquare(){
         ob1.style.left = pos1+'px';
     }
     function framey(){ 
-        if( pos2 >= 460){
+        if( pos2 >= 460){ //quando toca o chão para
             clearInterval(id)
             clearInterval(cont)
             clearInterval(id2)
