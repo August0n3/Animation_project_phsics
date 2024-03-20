@@ -1,4 +1,4 @@
-let m = 5 // massa em kg
+let m = 2 // massa em kg
 let k = 1960 // constante da mola em N/m
 let hp = 0.4 // altura em m
 let g = 9.8 // gravidade em m/s²
