@@ -54,6 +54,18 @@ address {
     height: 500px;
 }
 
+.buraco{
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    width: 60px;
+    height: 40px;
+    background-color:black;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 .obj1 {
     position: absolute;
     top: 0px;
@@ -76,6 +88,33 @@ address {
     border-right: 0;
     border-top: 0;
 }
+
+.circulo{
+    position: absolute;
+    bottom:0px;
+    left: 300px;
+    width: 100px;
+    border: 10px solid gray;
+    height: 100px;
+    background-color: none;
+    border-radius: 50%;
+    border-left:0%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.linha{
+    position: absolute;
+    bottom: 0px;
+    left: 270px;
+    width: 85px;
+    height: 10px;
+    background-color:gray;
+    padding: 0px;
+    margin: 0px;
+}
+
 
 .actions {
     margin: 0.5rem 0;
